@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(90deg,white, #2eacd4);
+}
+
+.groovy {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#loginTitleText{
+    color: green;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#loginDivText{
+    color: yellow;
+    font-weight: bolder;
+}
+
+.blink_me {
+    animation: blinker 4s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .button {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 12px;
+    border-color: lightblue;
+  }
+
+  .lgButton {
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border-radius: 12px;
+    border-color: lightblue;
+  }
